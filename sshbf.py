@@ -32,7 +32,7 @@ while(1):
     TCPsock.settimeout(1)
 
     try:
-        TCPsock.connect((ip, port))
+        TCPsock.connect((ip, 22))
     except:
         continue
 
